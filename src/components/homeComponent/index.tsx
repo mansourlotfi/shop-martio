@@ -1,7 +1,12 @@
 import React from "react";
+import BannerContainer from "./bannerContainer";
 
 function HomeComponent() {
-  return <div>HomeComponent</div>;
+  return (
+    <>
+      <BannerContainer />
+    </>
+  );
 }
 
 export default HomeComponent;

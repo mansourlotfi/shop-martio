@@ -1,6 +1,5 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import BannerContainer from "./bannerContainer";
 import HeaderMenu from "./header";
 import PreLoader from "./preLoader";
 import SearchBox from "./searchBox";
@@ -11,7 +10,6 @@ function Index() {
       <PreLoader />
       <SearchBox />
       <HeaderMenu />
-      <BannerContainer />
       <div
         style={{
           margin: "80px 0 10px 0",
