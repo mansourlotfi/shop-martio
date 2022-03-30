@@ -53,7 +53,7 @@ function BannerContainer() {
                       <div className="e-banner-img">
                         <img
                           src="assets/images/index1/baner01.png"
-                          alt="image"
+                          alt="baner01"
                           className="img-fluid"
                         />
                       </div>
@@ -109,7 +109,7 @@ function BannerContainer() {
                       <div className="e-banner-img">
                         <img
                           src="assets/images/index1/baner02.png"
-                          alt="image"
+                          alt="baner02"
                           className="img-fluid"
                         />
                       </div>
@@ -165,7 +165,7 @@ function BannerContainer() {
                       <div className="e-banner-img">
                         <img
                           src="assets/images/index1/baner01.png"
-                          alt="image"
+                          alt="baner01"
                           className="img-fluid"
                         />
                       </div>
