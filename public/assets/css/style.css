@@ -1962,8 +1962,8 @@ body.open-cart .main-wrapper:not(.sb-cartbox) {
 .c-sliderwrap .swiper-container-rtl .swiper-button-prev,
 .c-sliderwrap .swiper-button-prev,
 .c-sliderwrap .swiper-container-rtl .swiper-button-next {
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
 }
 .e-best-slr-wrap:hover .swiper-button-next,
 .e-best-slr-wrap:hover .swiper-container-rtl .swiper-button-prev,
