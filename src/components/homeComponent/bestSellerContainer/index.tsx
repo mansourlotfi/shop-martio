@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 
 function BestSellerContainer() {
   return (
@@ -29,14 +29,15 @@ function BestSellerContainer() {
         <Swiper
           slidesPerView={4}
           spaceBetween={30}
-          slidesPerGroup={3}
+          slidesPerGroup={1}
           loop={true}
           loopFillGroupWithBlank={false}
           pagination={{
             clickable: true,
           }}
+          autoplay
           navigation={true}
-          modules={[Pagination, Navigation]}
+          modules={[Pagination, Navigation, Autoplay]}
           className="bestSellerSwiper"
         >
           <SwiperSlide>

@@ -24,11 +24,4 @@
 }
 
 .bestSellerSwiper > .swiper-button-prev {
-  background-color: aqua;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: block;
-  opacity: 1;
-  visibility: visible;
 }
