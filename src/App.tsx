@@ -1,3 +1,5 @@
+import Login from "components/layout/login";
+import ShoppingCard from "components/layout/shoppingCard";
 import { useEffect } from "react";
 import Routing from "utils/routing";
 import "./App.css";
@@ -16,17 +18,19 @@ function App() {
     }, [resourceUrl]);
   };
 
-  ImportMyScript("./assets/js/jquery.min.js");
-  ImportMyScript("./assets/js/bootstrap.bundle.min.js");
-  ImportMyScript("./assets/js/SmoothScroll.min.js");
-  ImportMyScript("./assets/js/jquery.nice-select.min.js");
-  ImportMyScript("./assets/js/swiper-bundle.min.js");
-  ImportMyScript("./assets/js/isotope.pkgd.min.js");
-  ImportMyScript("./assets/js/custom.js");
+  ImportMyScript("assets/js/jquery.min.js");
+  ImportMyScript("assets/js/bootstrap.bundle.min.js");
+  ImportMyScript("assets/js/SmoothScroll.min.js");
+  ImportMyScript("assets/js/jquery.nice-select.min.js");
+  ImportMyScript("assets/js/swiper-bundle.min.js");
+  ImportMyScript("assets/js/isotope.pkgd.min.js");
+  ImportMyScript("assets/js/custom.js");
 
   return (
     <>
       <Routing />
+      <ShoppingCard />
+      <Login />
     </>
   );
 }
