@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Footer from "./footer";
 import HeaderMenu from "./header";
 import PreLoader from "./preLoader";
 import SearchBox from "./searchBox";
@@ -18,6 +19,7 @@ function Index() {
       >
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 }

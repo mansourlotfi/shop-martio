@@ -25,24 +25,6 @@ function HeaderMenu() {
             <div className="ht-right_info">
               <ul className="ht-info-list">
                 <li>
-                  زبان :
-                  <select>
-                    <option data-display="فارسی">فارسی </option>
-                    <option value="1">اسپانیایی </option>
-                    <option value="2">هندی </option>
-                    <option value="3">عربی </option>
-                    <option value="4">روسیه </option>
-                  </select>
-                </li>
-                <li>
-                  کارنسی :
-                  <select>
-                    <option data-display="هزارتومان">هزارتومان </option>
-                    <option value="1">یورو </option>
-                    <option value="2">دلار </option>
-                  </select>
-                </li>
-                <li>
                   <a href="profile.html">حساب کاربری </a>
                 </li>
                 <li>
