@@ -19,14 +19,9 @@ function Index() {
 
       <SearchBox />
       <HeaderMenu />
-      <div
-        style={{
-          margin: "80px 0 10px 0",
-          minHeight: "calc(100vh - 380px)",
-        }}
-      >
-        <Outlet />
-      </div>
+
+      <Outlet />
+
       <Footer />
     </div>
   );
