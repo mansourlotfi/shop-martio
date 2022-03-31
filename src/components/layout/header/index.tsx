@@ -1,4 +1,25 @@
 function HeaderMenu() {
+  const toggleCard = () => {
+    document.body.classList.toggle("open-cart");
+
+    document
+      .querySelector(".cmn-cart-tgl")!
+      .addEventListener("click", function (e) {
+        e.stopPropagation();
+        document.body.classList.toggle("open-cart");
+      });
+    document
+      .querySelector(".close-box")!
+      .addEventListener("click", function () {
+        document.body.classList.remove("open-cart");
+      });
+    document
+      .querySelector(".sb-cartbox")!
+      .addEventListener("click", function (e) {
+        e.stopPropagation();
+      });
+  };
+
   return (
     <>
       <div className="header-main-wrapper header-style1">
@@ -1346,8 +1367,8 @@ function HeaderMenu() {
                     </svg>
                   </a>
                 </li>
-                <li className="hs-cart-box cmn-cart-tgl">
-                  <a href="javascript:void(0);">
+                <li className="hs-cart-box cmn-cart-tgl" onClick={toggleCard}>
+                  <a href="#">
                     <div className="hs-cartbox-inner">
                       <svg
                         xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1365,11 +1386,8 @@ function HeaderMenu() {
                     <span className="hs-cart-value">512 هزار تومان</span>
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="javascript:void(0);"
-                    className="menu-btn c-toggle-btn"
-                  >
+                <li onClick={toggleCard}>
+                  <a href="#" className="menu-btn c-toggle-btn">
                     <span></span>
                     <span></span>
                     <span></span>

@@ -1080,7 +1080,7 @@ body.open-cart .main-wrapper:not(.sb-cartbox) {
   opacity: 0;
   visibility: hidden;
   z-index: 9;
-  cursor: zoom-in;
+  /* cursor: zoom-in; */
   -webkit-transition: all 0.3s linear 0s;
   -moz-transition: all 0.3s linear 0s;
   -ms-transition: all 0.3s linear 0s;

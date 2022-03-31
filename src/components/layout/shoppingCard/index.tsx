@@ -1,6 +1,13 @@
 import React from "react";
 
 function ShoppingCard() {
+  const closeCard = () => {
+    document.querySelector("body")!.addEventListener("click", function (e) {
+      e.stopPropagation();
+      document.body.classList.remove("open-cart");
+    });
+  };
+
   return (
     <>
       <div className="sb-cartbox">
@@ -149,7 +156,10 @@ function ShoppingCard() {
           </div>
         </div>
       </div>
-      <div className="bg-overlay cb-overlay cmn-cart-tgl"></div>
+      <div
+        className="bg-overlay cb-overlay cmn-cart-tgl"
+        onClick={closeCard}
+      ></div>
     </>
   );
 }
