@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function HeaderMenu() {
   const toggleCard = () => {
     document.body.classList.toggle("open-cart");
@@ -73,13 +75,13 @@ function HeaderMenu() {
         <div className="header-sticky-wrapper">
           <div className="hs-left">
             <div className="hs-left-logo">
-              <a href="index.html">
+              <Link to="/">
                 <img
                   src="assets/images/index1/logo.png"
                   alt="logo"
                   className="img-fluid"
                 />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="hs-medium custom-scroll">
