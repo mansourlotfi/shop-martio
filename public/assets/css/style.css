@@ -1514,7 +1514,6 @@ body.open-cart .main-wrapper:not(.sb-cartbox) {
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  /* display: none; */
   color: white;
 }
 .e-swiper-next,

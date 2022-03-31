@@ -36,6 +36,7 @@ function BestSellerContainer() {
             clickable: true,
           }}
           autoplay
+          speed={1000}
           navigation={true}
           modules={[Pagination, Navigation, Autoplay]}
           className="bestSellerSwiper"

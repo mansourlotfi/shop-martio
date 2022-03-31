@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import { Grid } from "@mui/material";
 
 function BannerContainer() {
@@ -23,8 +23,12 @@ function BannerContainer() {
         pagination={{
           clickable: true,
         }}
+        autoplay={{
+          delay: 8000,
+        }}
+        speed={1500}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
