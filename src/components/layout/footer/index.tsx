@@ -176,7 +176,7 @@ function Footer() {
             <div className="col-lg-6">
               <ul className="e-bfooter-list">
                 <li>
-                  <a href="terms.html">قوانین سایت </a>
+                  <Link to={routesName.terms.path}>قوانین سایت </Link>
                 </li>
                 <li>
                   <a href="privacy_policy.html">حریم خصوصی </a>

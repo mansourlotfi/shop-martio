@@ -11,6 +11,7 @@ const Profile = React.lazy(() => import("pages/profile"));
 const Wishlist = React.lazy(() => import("pages/wishlist"));
 const Blog = React.lazy(() => import("pages/blog"));
 const BlogPost = React.lazy(() => import("pages/blogPost"));
+const Terms = React.lazy(() => import("pages/terms"));
 
 interface IRoute {
   title: string;
@@ -56,11 +57,10 @@ export const routesName: IRoutesName = {
     title: "wishlist",
     path: "wishlist",
   },
-
-  // Privacy: {
-  //   title: "Privacy",
-  //   path: "/privacy",
-  // },
+  terms: {
+    title: "terms",
+    path: "/terms",
+  },
   // AboutUs: {
   //   title: "AboutUs",
   //   path: "/aboutUs",
@@ -134,7 +134,12 @@ const routes: IRoute[] = [
     hasMenuField: false,
     element: Wishlist,
   },
-
+  {
+    ...routesName.terms,
+    isPrivate: false,
+    hasMenuField: false,
+    element: Terms,
+  },
   // {
   //   ...routesName.AboutUs,
   //   isPrivate: false,
