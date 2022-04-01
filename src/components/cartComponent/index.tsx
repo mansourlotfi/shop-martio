@@ -46,12 +46,10 @@ function CartComponent() {
                           <div className="quantity-box">
                             <input type="text" className="quantity" value="2" />
                             <span className="quantity-minus pa-sub quantity-icon">
-                              {" "}
-                              -{" "}
+                              -
                             </span>
                             <span className="quantity-plus  pa-add quantity-icon">
-                              {" "}
-                              +{" "}
+                              +
                             </span>
                           </div>
                         </td>
@@ -101,12 +99,10 @@ function CartComponent() {
                           <div className="quantity-box">
                             <input type="text" className="quantity" value="2" />
                             <span className="quantity-minus pa-sub quantity-icon">
-                              {" "}
-                              -{" "}
+                              -
                             </span>
                             <span className="quantity-plus  pa-add quantity-icon">
-                              {" "}
-                              +{" "}
+                              +
                             </span>
                           </div>
                         </td>
@@ -156,12 +152,10 @@ function CartComponent() {
                           <div className="quantity-box">
                             <input type="text" className="quantity" value="2" />
                             <span className="quantity-minus pa-sub quantity-icon">
-                              {" "}
-                              -{" "}
+                              -
                             </span>
                             <span className="quantity-plus  pa-add quantity-icon">
-                              {" "}
-                              +{" "}
+                              +
                             </span>
                           </div>
                         </td>
@@ -211,12 +205,10 @@ function CartComponent() {
                           <div className="quantity-box">
                             <input type="text" className="quantity" value="2" />
                             <span className="quantity-minus pa-sub quantity-icon">
-                              {" "}
-                              -{" "}
+                              -
                             </span>
                             <span className="quantity-plus  pa-add quantity-icon">
-                              {" "}
-                              +{" "}
+                              +
                             </span>
                           </div>
                         </td>
@@ -266,12 +258,10 @@ function CartComponent() {
                           <div className="quantity-box">
                             <input type="text" className="quantity" value="2" />
                             <span className="quantity-minus pa-sub quantity-icon">
-                              {" "}
-                              -{" "}
+                              -
                             </span>
                             <span className="quantity-plus  pa-add quantity-icon">
-                              {" "}
-                              +{" "}
+                              +
                             </span>
                           </div>
                         </td>
@@ -319,7 +309,7 @@ function CartComponent() {
                               href="javascript:void(0);"
                               className="e-btn newsletter-btn"
                             >
-                              اعمال کد تخفیف{" "}
+                              اعمال کد تخفیف
                             </a>
                           </div>
                         </form>
@@ -331,7 +321,7 @@ function CartComponent() {
                       href="javascript:void(0);"
                       className="e-btn black update-cart"
                     >
-                      بروز رسانی سبد{" "}
+                      بروز رسانی سبد
                     </a>
                   </li>
                 </ul>
@@ -370,7 +360,7 @@ function CartComponent() {
                 </div>
               </div>
               <a href="shipping_cart.html" className="e-btn">
-                پرداخت صورتحساب{" "}
+                پرداخت صورتحساب
               </a>
             </div>
           </div>

@@ -22,7 +22,7 @@ function NewsLetter() {
               </span>
               <h2 className="e-nl-title">مشترک شدن در خبرنامه</h2>
               <p className="e-nl-des">
-                به انجمن خصوصی ما شاپمارت بپیوندید. ما برای شما ارسال خواهیم کرد{" "}
+                به انجمن خصوصی ما شاپمارت بپیوندید. ما برای شما ارسال خواهیم کرد
                 <br /> ماهانه یک بار داستانهایی را از جاده تنظیم کنید .
               </p>
               <form>
@@ -32,7 +32,7 @@ function NewsLetter() {
                     href="javascript:void(0);"
                     className="e-btn newsletter-btn"
                   >
-                    عضویت اکنون{" "}
+                    عضویت اکنون
                   </a>
                 </div>
               </form>

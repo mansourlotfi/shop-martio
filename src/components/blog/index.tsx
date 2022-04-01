@@ -1,3 +1,6 @@
+import { routesName } from "common/configs/routesConfig";
+import { Link } from "react-router-dom";
+
 function BlogComponent() {
   return (
     <section className="e-blog-wrap e-blog-category-wrap">
@@ -24,7 +27,7 @@ function BlogComponent() {
                               alt="icon"
                             />
                           </span>
-                          توسط -{" "}
+                          توسط -
                           <span className="cmn-blog-auther">جعفر عباسی </span>
                         </a>
                       </li>
@@ -40,11 +43,14 @@ function BlogComponent() {
                         </a>
                       </li>
                     </ul>
-                    <a href="blog_single.html" className="cmn-blog-title">
+                    <Link
+                      to={routesName.blogPost.path}
+                      className="cmn-blog-title"
+                    >
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
                       و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
                       روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -67,7 +73,7 @@ function BlogComponent() {
                               alt="icon"
                             />
                           </span>
-                          توسط -{" "}
+                          توسط -
                           <span className="cmn-blog-auther">جعفر عباسی </span>
                         </a>
                       </li>
@@ -83,10 +89,13 @@ function BlogComponent() {
                         </a>
                       </li>
                     </ul>
-                    <a href="blog_single.html" className="cmn-blog-title">
+                    <Link
+                      to={routesName.blogPost.path}
+                      className="cmn-blog-title"
+                    >
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
                       و با استفاده از طراحان گرافیک است. .
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-sm-6">
@@ -107,7 +116,7 @@ function BlogComponent() {
                               alt="icon"
                             />
                           </span>
-                          توسط -{" "}
+                          توسط -
                           <span className="cmn-blog-auther">جعفر عباسی </span>
                         </a>
                       </li>
@@ -123,10 +132,13 @@ function BlogComponent() {
                         </a>
                       </li>
                     </ul>
-                    <a href="blog_single.html" className="cmn-blog-title">
+                    <Link
+                      to={routesName.blogPost.path}
+                      className="cmn-blog-title"
+                    >
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
                       و با استفاده از طراحان گرافیک است. .
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -161,7 +173,7 @@ function BlogComponent() {
                               alt="icon"
                             />
                           </span>
-                          توسط -{" "}
+                          توسط -
                           <span className="cmn-blog-auther">جعفر عباسی </span>
                         </a>
                       </li>
@@ -177,11 +189,14 @@ function BlogComponent() {
                         </a>
                       </li>
                     </ul>
-                    <a href="blog_single.html" className="cmn-blog-title">
+                    <Link
+                      to={routesName.blogPost.path}
+                      className="cmn-blog-title"
+                    >
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
                       و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
                       روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -204,7 +219,7 @@ function BlogComponent() {
                               alt="icon"
                             />
                           </span>
-                          توسط -{" "}
+                          توسط -
                           <span className="cmn-blog-auther">جعفر عباسی </span>
                         </a>
                       </li>
@@ -220,11 +235,14 @@ function BlogComponent() {
                         </a>
                       </li>
                     </ul>
-                    <a href="blog_single.html" className="cmn-blog-title">
+                    <Link
+                      to={routesName.blogPost.path}
+                      className="cmn-blog-title"
+                    >
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
                       و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
                       روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -250,110 +268,109 @@ function BlogComponent() {
                 <h4 className="cmn-brdr-ttle mb-20">دسته بندی</h4>
                 <ul className="e-blog-catgy">
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
-                        {" "}
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
-                        مجموعه جدید{" "}
+                        />
+                        مجموعه جدید
                       </span>
                       <span className="blog-ctgry-badge">( 512 )</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
-                        مدل مردانه{" "}
+                        />
+                        مدل مردانه
                       </span>
                       <span className="blog-ctgry-badge">( 45 )</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
+                        />
                         مدل زنانه
                       </span>
                       <span className="blog-ctgry-badge">( 63 )</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
-                        بچگانه{" "}
+                        />
+                        بچگانه
                       </span>
                       <span className="blog-ctgry-badge">( 41 )</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
-                        فیستوال تخفیف{" "}
+                        />
+                        فیستوال تخفیف
                       </span>
                       <span className="blog-ctgry-badge">( 54 )</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
-                        جواهری{" "}
+                        />
+                        جواهری
                       </span>
                       <span className="blog-ctgry-badge">( 75 )</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
-                        ساعت{" "}
+                        />
+                        ساعت
                       </span>
                       <span className="blog-ctgry-badge">( 85 )</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -447,84 +464,8 @@ function BlogComponent() {
                 <h4 className="cmn-brdr-ttle mb-20">بایگانی</h4>
                 <ul className="e-blog-catgy">
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
-                      className="blog-ctgry-item"
-                    >
-                      <span className="blog-ctgry-name">
-                        {" "}
-                        <img
-                          src="assets/images/index1/svg/blog_caret.svg"
-                          alt="icon"
-                        />{" "}
-                        فروردین 1400
-                      </span>
-                      <span className="blog-ctgry-badge">( 512 )</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="product_category_sidebar.html"
-                      className="blog-ctgry-item"
-                    >
-                      <span className="blog-ctgry-name">
-                        <img
-                          src="assets/images/index1/svg/blog_caret.svg"
-                          alt="icon"
-                        />{" "}
-                        اردیبهشت 1400
-                      </span>
-                      <span className="blog-ctgry-badge">( 45 )</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="product_category_sidebar.html"
-                      className="blog-ctgry-item"
-                    >
-                      <span className="blog-ctgry-name">
-                        <img
-                          src="assets/images/index1/svg/blog_caret.svg"
-                          alt="icon"
-                        />{" "}
-                        خرداد 1400
-                      </span>
-                      <span className="blog-ctgry-badge">( 63 )</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="product_category_sidebar.html"
-                      className="blog-ctgry-item"
-                    >
-                      <span className="blog-ctgry-name">
-                        <img
-                          src="assets/images/index1/svg/blog_caret.svg"
-                          alt="icon"
-                        />{" "}
-                        تیر 1400
-                      </span>
-                      <span className="blog-ctgry-badge">( 41 )</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="product_category_sidebar.html"
-                      className="blog-ctgry-item"
-                    >
-                      <span className="blog-ctgry-name">
-                        <img
-                          src="assets/images/index1/svg/blog_caret.svg"
-                          alt="icon"
-                        />{" "}
-                        اسفند 1399
-                      </span>
-                      <span className="blog-ctgry-badge">( 54 )</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
@@ -532,39 +473,114 @@ function BlogComponent() {
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
                         />
-                        بهمن 1399{" "}
+                        فروردین 1400
                       </span>
-                      <span className="blog-ctgry-badge">( 75 )</span>
-                    </a>
+                      <span className="blog-ctgry-badge">( 512 )</span>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="product_category_sidebar.html"
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
                       className="blog-ctgry-item"
                     >
                       <span className="blog-ctgry-name">
                         <img
                           src="assets/images/index1/svg/blog_caret.svg"
                           alt="icon"
-                        />{" "}
+                        />
+                        اردیبهشت 1400
+                      </span>
+                      <span className="blog-ctgry-badge">( 45 )</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
+                      className="blog-ctgry-item"
+                    >
+                      <span className="blog-ctgry-name">
+                        <img
+                          src="assets/images/index1/svg/blog_caret.svg"
+                          alt="icon"
+                        />
+                        خرداد 1400
+                      </span>
+                      <span className="blog-ctgry-badge">( 63 )</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
+                      className="blog-ctgry-item"
+                    >
+                      <span className="blog-ctgry-name">
+                        <img
+                          src="assets/images/index1/svg/blog_caret.svg"
+                          alt="icon"
+                        />
+                        تیر 1400
+                      </span>
+                      <span className="blog-ctgry-badge">( 41 )</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
+                      className="blog-ctgry-item"
+                    >
+                      <span className="blog-ctgry-name">
+                        <img
+                          src="assets/images/index1/svg/blog_caret.svg"
+                          alt="icon"
+                        />
+                        اسفند 1399
+                      </span>
+                      <span className="blog-ctgry-badge">( 54 )</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
+                      className="blog-ctgry-item"
+                    >
+                      <span className="blog-ctgry-name">
+                        <img
+                          src="assets/images/index1/svg/blog_caret.svg"
+                          alt="icon"
+                        />
+                        بهمن 1399
+                      </span>
+                      <span className="blog-ctgry-badge">( 75 )</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to={routesName.productCategoryDetailed.path}
+                      className="blog-ctgry-item"
+                    >
+                      <span className="blog-ctgry-name">
+                        <img
+                          src="assets/images/index1/svg/blog_caret.svg"
+                          alt="icon"
+                        />
                         دی 1399
                       </span>
                       <span className="blog-ctgry-badge">( 85 )</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="e-blog-widgetbox text-center">
-                <a
+                <Link
+                  to={routesName.productCategoryDetailed.path}
                   className="e-sidebar-ads hover-animation"
-                  href="product_category_sidebar.html"
                 >
                   <img
                     src="assets/images/index1/blogads.jpg"
                     alt="image"
                     className="img-fluid"
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -575,7 +591,7 @@ function BlogComponent() {
               <ul className="e-pagination">
                 <li className="e-page-item disabled">
                   <a className="e-btn light" href="javascript:void(0);">
-                    قبلی{" "}
+                    قبلی
                   </a>
                 </li>
                 <li className="e-page-item">
@@ -608,7 +624,7 @@ function BlogComponent() {
                 </li>
                 <li className="e-page-item">
                   <a className="e-btn light" href="javascript:void(0);">
-                    بعدی{" "}
+                    بعدی
                   </a>
                 </li>
               </ul>

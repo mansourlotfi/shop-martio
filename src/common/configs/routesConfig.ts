@@ -10,6 +10,7 @@ const ContactUs = React.lazy(() => import("pages/contact"));
 const Profile = React.lazy(() => import("pages/profile"));
 const Wishlist = React.lazy(() => import("pages/wishlist"));
 const Blog = React.lazy(() => import("pages/blog"));
+const BlogPost = React.lazy(() => import("pages/blogPost"));
 
 interface IRoute {
   title: string;
@@ -76,10 +77,10 @@ export const routesName: IRoutesName = {
     title: "ContactUs",
     path: "/contactUs",
   },
-  // BlogPost: {
-  //   title: "ContactUs",
-  //   path: "/blogPost",
-  // },
+  blogPost: {
+    title: "blogPost",
+    path: "/blogPost",
+  },
   // error403: {
   //   title: "Error 403",
   //   path: "/error-pages/error-403",
@@ -158,12 +159,12 @@ const routes: IRoute[] = [
     hasMenuField: false,
     element: ContactUs,
   },
-  // {
-  //   ...routesName.BlogPost,
-  //   isPrivate: false,
-  //   hasMenuField: false,
-  //   element: BlogPost,
-  // },
+  {
+    ...routesName.blogPost,
+    isPrivate: false,
+    hasMenuField: false,
+    element: BlogPost,
+  },
   //   {
   //     ...routesName.asd,
   //     hasMenuField: true,

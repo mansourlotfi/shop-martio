@@ -20,7 +20,7 @@ function ShoppingCard() {
               5 کالای خود را در سبد خرید خود داشته باشید
             </p>
             <a href="javascript:void(0);" className="sb-cb-close close-box">
-              بستن{" "}
+              بستن
             </a>
           </div>
           <div className="sb-cartbox-body">

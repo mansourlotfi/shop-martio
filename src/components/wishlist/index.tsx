@@ -55,7 +55,7 @@ function WishlistComponent() {
                             href="javascript:void(0);"
                             className="e-btn wishlist-ac"
                           >
-                            افزودن به سبد{" "}
+                            افزودن به سبد
                           </a>
                         </td>
                         <td>
@@ -107,7 +107,7 @@ function WishlistComponent() {
                             href="javascript:void(0);"
                             className="e-btn wishlist-ac"
                           >
-                            افزودن به سبد{" "}
+                            افزودن به سبد
                           </a>
                         </td>
                         <td>
@@ -159,7 +159,7 @@ function WishlistComponent() {
                             href="javascript:void(0);"
                             className="e-btn wishlist-ac"
                           >
-                            افزودن به سبد{" "}
+                            افزودن به سبد
                           </a>
                         </td>
                         <td>
@@ -211,7 +211,7 @@ function WishlistComponent() {
                             href="javascript:void(0);"
                             className="e-btn wishlist-ac"
                           >
-                            افزودن به سبد{" "}
+                            افزودن به سبد
                           </a>
                         </td>
                         <td>
@@ -263,7 +263,7 @@ function WishlistComponent() {
                             href="javascript:void(0);"
                             className="e-btn wishlist-ac"
                           >
-                            افزودن به سبد{" "}
+                            افزودن به سبد
                           </a>
                         </td>
                         <td>

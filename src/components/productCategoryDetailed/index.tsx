@@ -176,10 +176,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">29000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -296,10 +295,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">320000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -415,10 +413,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">65000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -534,10 +531,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">95000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -653,10 +649,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">140000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -772,10 +767,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">290000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -892,10 +886,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">140000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1011,10 +1004,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">440000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1130,10 +1122,9 @@ function ProductCategoryDetailedComponent() {
                         </a>
                         <h2 className="na-price">640000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1155,7 +1146,7 @@ function ProductCategoryDetailedComponent() {
               <ul className="e-pagination">
                 <li className="e-page-item disabled">
                   <a className="e-btn light" href="javascript:void(0);">
-                    قبلی{" "}
+                    قبلی
                   </a>
                 </li>
                 <li className="e-page-item">
@@ -1188,7 +1179,7 @@ function ProductCategoryDetailedComponent() {
                 </li>
                 <li className="e-page-item">
                   <a className="e-btn light" href="javascript:void(0);">
-                    بعدی{" "}
+                    بعدی
                   </a>
                 </li>
               </ul>
@@ -1222,7 +1213,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        هودی{" "}
+                        هودی
                       </span>
                       <span className="blog-ctgry-badge">( 45 )</span>
                     </div>
@@ -1264,7 +1255,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        هودی مردانه{" "}
+                        هودی مردانه
                       </span>
                       <span className="blog-ctgry-badge">( 54 )</span>
                     </div>
@@ -1278,7 +1269,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        کفش ها{" "}
+                        کفش ها
                       </span>
                       <span className="blog-ctgry-badge">( 75 )</span>
                     </div>
@@ -1292,7 +1283,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        کت خالی{" "}
+                        کت خالی
                       </span>
                       <span className="blog-ctgry-badge">( 85 )</span>
                     </div>
@@ -1301,12 +1292,12 @@ function ProductCategoryDetailedComponent() {
               </div>
               <div className="e-blog-widgetbox mb-50">
                 <h4 className="cmn-brdr-ttle mb-30">
-                  فیلتر بر اساس قیمت (هزارتومان){" "}
+                  فیلتر بر اساس قیمت (هزارتومان)
                 </h4>
                 <div id="slider-range"></div>
                 <h2 className="slider-price">
-                  قیمت: <span id="slider-range-value1"></span> -{" "}
-                  <span id="slider-range-value2"></span>{" "}
+                  قیمت: <span id="slider-range-value1"></span> -
+                  <span id="slider-range-value2"></span>
                 </h2>
                 <div className="row">
                   <div className="col-sm-12">
@@ -1329,7 +1320,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        سیاه{" "}
+                        سیاه
                       </span>
                       <span className="blog-ctgry-badge">( 512 )</span>
                     </div>
@@ -1343,7 +1334,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        سفید{" "}
+                        سفید
                       </span>
                       <span className="blog-ctgry-badge">( 45 )</span>
                     </div>
@@ -1357,7 +1348,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        آبی{" "}
+                        آبی
                       </span>
                       <span className="blog-ctgry-badge">( 63 )</span>
                     </div>
@@ -1371,7 +1362,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        صورتی{" "}
+                        صورتی
                       </span>
                       <span className="blog-ctgry-badge">( 41 )</span>
                     </div>
@@ -1385,7 +1376,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        سبز{" "}
+                        سبز
                       </span>
                       <span className="blog-ctgry-badge">( 54 )</span>
                     </div>
@@ -1399,7 +1390,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        زرد{" "}
+                        زرد
                       </span>
                       <span className="blog-ctgry-badge">( 75 )</span>
                     </div>
@@ -1413,7 +1404,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        قرمز{" "}
+                        قرمز
                       </span>
                       <span className="blog-ctgry-badge">( 85 )</span>
                     </div>
@@ -1432,7 +1423,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        بسیار کوچک{" "}
+                        بسیار کوچک
                       </span>
                       <span className="blog-ctgry-badge">( 512 )</span>
                     </div>
@@ -1446,7 +1437,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        کوچک{" "}
+                        کوچک
                       </span>
                       <span className="blog-ctgry-badge">( 45 )</span>
                     </div>
@@ -1460,7 +1451,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        متوسط{" "}
+                        متوسط
                       </span>
                       <span className="blog-ctgry-badge">( 63 )</span>
                     </div>
@@ -1474,7 +1465,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        بزرگ{" "}
+                        بزرگ
                       </span>
                       <span className="blog-ctgry-badge">( 41 )</span>
                     </div>
@@ -1488,7 +1479,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        خیلی بزرگ{" "}
+                        خیلی بزرگ
                       </span>
                       <span className="blog-ctgry-badge">( 54 )</span>
                     </div>
@@ -1502,7 +1493,7 @@ function ProductCategoryDetailedComponent() {
                           className="e-checkbox-input"
                         />
                         <label className="e-checkbox"></label>
-                        بسیار بزرگ{" "}
+                        بسیار بزرگ
                       </span>
                       <span className="blog-ctgry-badge">( 75 )</span>
                     </div>

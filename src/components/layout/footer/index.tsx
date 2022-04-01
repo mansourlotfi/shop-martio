@@ -74,11 +74,11 @@ function Footer() {
                     </li>
                     <li>
                       <Link to={routesName.ContactUs.path}>
-                        موقعیت های فروشگاه{" "}
+                        موقعیت های فروشگاه
                       </Link>
                     </li>
                     <li>
-                      <a href="blog_single.html">آخرین اخبار </a>
+                      <Link to={routesName.blogPost.path}>آخرین اخبار </Link>
                     </li>
                     <li>
                       <Link to="/product-category-detailed">فروشگاه </Link>

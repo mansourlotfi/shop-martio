@@ -55,7 +55,7 @@ function Login() {
                                       id="remember_me"
                                     />
                                     <label className="e-checkbox">
-                                      مرا به خاطر بسپار{" "}
+                                      مرا به خاطر بسپار
                                     </label>
                                   </div>
                                 </li>
@@ -64,7 +64,7 @@ function Login() {
                                     href="forgot_password.html"
                                     className="e-comn-link"
                                   >
-                                    فراموشی رمز عبور؟{" "}
+                                    فراموشی رمز عبور؟
                                   </a>
                                 </li>
                               </ul>
@@ -73,7 +73,7 @@ function Login() {
                           <div className="col-md-12">
                             <div className="">
                               <a href="index.html" className="e-btn">
-                                ورود{" "}
+                                ورود
                               </a>
                             </div>
                           </div>

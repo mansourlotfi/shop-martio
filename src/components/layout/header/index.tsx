@@ -1341,7 +1341,7 @@ function HeaderMenu() {
                         <Link to={routesName.blog.path}>دسته بندی وبلاگ </Link>
                       </li>
                       <li>
-                        <a href="blog_single.html">تک نوشته </a>
+                        <Link to={routesName.blogPost.path}>تک نوشته </Link>
                       </li>
                     </ul>
                   </div>

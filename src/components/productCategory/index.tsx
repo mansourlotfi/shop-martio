@@ -226,10 +226,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">120000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -346,10 +345,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">860000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -465,10 +463,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">190000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -584,10 +581,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">29000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -704,10 +700,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">320000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -823,10 +818,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">65000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -942,10 +936,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">95000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1061,10 +1054,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">140000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1180,10 +1172,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">290000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1300,10 +1291,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">140000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1419,10 +1409,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">440000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1538,10 +1527,9 @@ function ProductCategoryComponent() {
                         </a>
                         <h2 className="na-price">640000 تومان</h2>
                         <p className="procategory-des">
-                          {" "}
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                           در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                          تکنولوژی مورد نیاز و کاربردی است.{" "}
+                          تکنولوژی مورد نیاز و کاربردی است.
                         </p>
                         <div className="pc-color-details">
                           <h2 className="na-color-title">رنگ های موجود </h2>
@@ -1563,7 +1551,7 @@ function ProductCategoryComponent() {
               <ul className="e-pagination justify-content-center e-line">
                 <li className="e-page-item disabled">
                   <a className="e-btn light" href="javascript:void(0);">
-                    قبلی{" "}
+                    قبلی
                   </a>
                 </li>
                 <li className="e-page-item">
@@ -1596,7 +1584,7 @@ function ProductCategoryComponent() {
                 </li>
                 <li className="e-page-item">
                   <a className="e-btn light" href="javascript:void(0);">
-                    بعدی{" "}
+                    بعدی
                   </a>
                 </li>
               </ul>
