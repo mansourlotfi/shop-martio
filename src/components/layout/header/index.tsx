@@ -50,7 +50,7 @@ function HeaderMenu() {
                   <Link to={routesName.profile.path}>حساب کاربری </Link>
                 </li>
                 <li>
-                  <a href="wishlist.html">لیست علاقه مندیها </a>
+                  <Link to={routesName.wishlist.path}>لیست علاقه مندیها </Link>
                 </li>
                 <li>
                   <a

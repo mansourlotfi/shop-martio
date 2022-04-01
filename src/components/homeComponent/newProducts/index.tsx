@@ -77,7 +77,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -91,7 +91,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -168,7 +168,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -182,7 +182,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -260,7 +260,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -274,7 +274,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -351,7 +351,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -365,7 +365,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -442,7 +442,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -456,7 +456,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -534,7 +534,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -548,7 +548,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -625,7 +625,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -639,7 +639,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -716,7 +716,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -730,7 +730,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -807,7 +807,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -821,7 +821,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -898,7 +898,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -912,7 +912,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -990,7 +990,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1004,7 +1004,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>
@@ -1081,7 +1081,7 @@ function NewProducts() {
                         </div>
                         <ul className="na-hover-content na-vartical-hover">
                           <li>
-                            <a href="wishlist.html">
+                            <Link to={routesName.wishlist.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1095,7 +1095,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to={routesName.cart.path}>

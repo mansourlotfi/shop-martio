@@ -159,7 +159,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -173,7 +173,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -278,7 +278,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -292,7 +292,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -398,7 +398,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -412,7 +412,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -517,7 +517,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -531,7 +531,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -636,7 +636,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -650,7 +650,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -756,7 +756,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -770,7 +770,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -875,7 +875,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -889,7 +889,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -994,7 +994,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1008,7 +1008,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -1113,7 +1113,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1127,7 +1127,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -1232,7 +1232,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1246,7 +1246,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -1352,7 +1352,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1366,7 +1366,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>
@@ -1471,7 +1471,7 @@ function ProductCategoryComponent() {
                           </div>
                           <ul className="na-hover-content na-vartical-hover">
                             <li>
-                              <a href="wishlist.html">
+                              <Link to={routesName.wishlist.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1485,7 +1485,7 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <Link to={routesName.cart.path}>

@@ -12,6 +12,7 @@ import "./styles.css";
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper";
 import { Link } from "react-router-dom";
+import { routesName } from "common/configs/routesConfig";
 
 function BestSellerContainer() {
   return (
@@ -73,7 +74,7 @@ function BestSellerContainer() {
                 </div>
                 <ul className="na-hover-content na-vartical-hover">
                   <li>
-                    <a href="wishlist.html">
+                    <Link to={routesName.wishlist.path}>
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -87,7 +88,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to="cart">
@@ -165,7 +166,7 @@ function BestSellerContainer() {
                 </div>
                 <ul className="na-hover-content na-vartical-hover">
                   <li>
-                    <a href="wishlist.html">
+                    <Link to={routesName.wishlist.path}>
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -179,7 +180,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to="/cart">
@@ -256,7 +257,7 @@ function BestSellerContainer() {
                 </div>
                 <ul className="na-hover-content na-vartical-hover">
                   <li>
-                    <a href="wishlist.html">
+                    <Link to={routesName.wishlist.path}>
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -270,7 +271,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to="/cart">
@@ -347,7 +348,7 @@ function BestSellerContainer() {
                 </div>
                 <ul className="na-hover-content na-vartical-hover">
                   <li>
-                    <a href="wishlist.html">
+                    <Link to={routesName.wishlist.path}>
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -361,7 +362,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to="/cart">
@@ -438,7 +439,7 @@ function BestSellerContainer() {
                 </div>
                 <ul className="na-hover-content na-vartical-hover">
                   <li>
-                    <a href="wishlist.html">
+                    <Link to={routesName.wishlist.path}>
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -452,7 +453,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to="/cart">
@@ -529,7 +530,7 @@ function BestSellerContainer() {
                 </div>
                 <ul className="na-hover-content na-vartical-hover">
                   <li>
-                    <a href="wishlist.html">
+                    <Link to={routesName.wishlist.path}>
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -543,7 +544,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to="/cart">
