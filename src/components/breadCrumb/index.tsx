@@ -4,7 +4,7 @@ function BreadCrumb() {
   return (
     <div className="e-breadcumb-wrap text-center">
       <h2 className="e-breadcumb-title">دسته محصولات </h2>
-      <ul className="e-breadcumb-kist">
+      {/* <ul className="e-breadcumb-kist">
         <li>
           <a href="index.html">خانه </a>
         </li>
@@ -14,7 +14,7 @@ function BreadCrumb() {
         <li>
           <a href="javascript:void(0);">ژاکت </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }
