@@ -47,7 +47,7 @@ function HeaderMenu() {
             <div className="ht-right_info">
               <ul className="ht-info-list">
                 <li>
-                  <a href="profile.html">حساب کاربری </a>
+                  <Link to={routesName.profile.path}>حساب کاربری </Link>
                 </li>
                 <li>
                   <a href="wishlist.html">لیست علاقه مندیها </a>
