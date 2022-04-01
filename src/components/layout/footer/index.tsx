@@ -1,4 +1,4 @@
-import React from "react";
+import { routesName } from "common/configs/routesConfig";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -73,7 +73,9 @@ function Footer() {
                       <a href="product_category.html">محصولات ما </a>
                     </li>
                     <li>
-                      <a href="contact.html">موقعیت های فروشگاه </a>
+                      <Link to={routesName.ContactUs.path}>
+                        موقعیت های فروشگاه{" "}
+                      </Link>
                     </li>
                     <li>
                       <a href="blog_single.html">آخرین اخبار </a>
@@ -82,7 +84,7 @@ function Footer() {
                       <Link to="/product-category-detailed">فروشگاه </Link>
                     </li>
                     <li>
-                      <a href="contact.html">تماس با ما </a>
+                      <Link to={routesName.ContactUs.path}>تماس با ما </Link>
                     </li>
                   </ul>
                 </div>
@@ -101,7 +103,7 @@ function Footer() {
                       <a href="terms.html">شرایط و ضوابط </a>
                     </li>
                     <li>
-                      <a href="contact.html">تماس با ما </a>
+                      <Link to={routesName.ContactUs.path}>تماس با ما </Link>
                     </li>
                     <li>
                       <a href="blog_category.html">دسته وبلاگ </a>

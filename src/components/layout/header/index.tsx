@@ -58,15 +58,15 @@ function HeaderMenu() {
                     data-toggle="modal"
                     data-target="#register"
                   >
-                    ثبت نام{" "}
-                  </a>{" "}
+                    ثبت نام
+                  </a>
                   یا
                   <a
                     href="javascript:void(0);"
                     data-toggle="modal"
                     data-target="#login"
                   >
-                    ورود{" "}
+                    ورود
                   </a>
                 </li>
               </ul>
@@ -207,7 +207,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              لباس خواب و لباس راحتی{" "}
+                              لباس خواب و لباس راحتی
                             </Link>
                           </li>
                           <li>
@@ -223,7 +223,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              مراقبت و نظافت شخصی{" "}
+                              مراقبت و نظافت شخصی
                             </Link>
                           </li>
                           <li>
@@ -409,7 +409,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              لباس خواب و لباس راحتی{" "}
+                              لباس خواب و لباس راحتی
                             </Link>
                           </li>
                           <li>
@@ -425,7 +425,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              مراقبت و نظافت شخصی{" "}
+                              مراقبت و نظافت شخصی
                             </Link>
                           </li>
                           <li>
@@ -611,7 +611,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              لباس خواب و لباس راحتی{" "}
+                              لباس خواب و لباس راحتی
                             </Link>
                           </li>
                           <li>
@@ -627,7 +627,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              مراقبت و نظافت شخصی{" "}
+                              مراقبت و نظافت شخصی
                             </Link>
                           </li>
                           <li>
@@ -813,7 +813,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              لباس خواب و لباس راحتی{" "}
+                              لباس خواب و لباس راحتی
                             </Link>
                           </li>
                           <li>
@@ -829,7 +829,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              مراقبت و نظافت شخصی{" "}
+                              مراقبت و نظافت شخصی
                             </Link>
                           </li>
                           <li>
@@ -1015,7 +1015,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              لباس خواب و لباس راحتی{" "}
+                              لباس خواب و لباس راحتی
                             </Link>
                           </li>
                           <li>
@@ -1031,7 +1031,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              مراقبت و نظافت شخصی{" "}
+                              مراقبت و نظافت شخصی
                             </Link>
                           </li>
                           <li>
@@ -1217,7 +1217,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              لباس خواب و لباس راحتی{" "}
+                              لباس خواب و لباس راحتی
                             </Link>
                           </li>
                           <li>
@@ -1233,7 +1233,7 @@ function HeaderMenu() {
                           </li>
                           <li>
                             <Link to="/product-category">
-                              مراقبت و نظافت شخصی{" "}
+                              مراقبت و نظافت شخصی
                             </Link>
                           </li>
                           <li>
@@ -1322,13 +1322,13 @@ function HeaderMenu() {
                         <Link to="/product-category-detailed">فروشگاه </Link>
                       </li>
                       <li>
-                        <Link to={routesName.cart.path}>سبد خرید </Link>{" "}
+                        <Link to={routesName.cart.path}>سبد خرید </Link>
                       </li>
                       <li>
-                        <Link to="/product-category">محصولات </Link>{" "}
+                        <Link to="/product-category">محصولات </Link>
                       </li>
                       <li>
-                        <a href="contact.html">تماس با ما </a>{" "}
+                        <Link to={routesName.ContactUs.path}>تماس با ما </Link>
                       </li>
                     </ul>
                   </div>
@@ -1338,10 +1338,10 @@ function HeaderMenu() {
                   <div className="drop-menu normal-menu">
                     <ul className="sub-menu">
                       <li>
-                        <a href="blog_category.html">دسته بندی وبلاگ </a>{" "}
+                        <a href="blog_category.html">دسته بندی وبلاگ </a>
                       </li>
                       <li>
-                        <a href="blog_single.html">تک نوشته </a>{" "}
+                        <a href="blog_single.html">تک نوشته </a>
                       </li>
                     </ul>
                   </div>
