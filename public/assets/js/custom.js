@@ -142,21 +142,6 @@ Assigned to: Theme Forest
     },
 
     /*-----------------------------------------------------
-				Category List Grid View 
-			-----------------------------------------------------*/
-    category_grid: function () {
-      $(".e-filter-list > li > a").on("click", function () {
-        $(".e-filter-list > li > a").removeClass("active");
-        $(this).addClass("active");
-      });
-      $(".Category-list-btn").on("click", function () {
-        $(".e-procategory-inner").addClass("list-view");
-      });
-      $(".Category-grid-btn").on("click", function () {
-        $(".e-procategory-inner").removeClass("list-view");
-      });
-    },
-    /*-----------------------------------------------------
 				Products details Slider 
 			-----------------------------------------------------*/
     pdetails_gallery: function () {
