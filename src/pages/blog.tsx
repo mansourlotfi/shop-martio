@@ -1,15 +1,15 @@
+import BlogComponent from "components/blog";
 import BreadCrumb from "components/breadCrumb";
 import NewsLetter from "components/homeComponent/newsLetter";
-import ProductCategoryComponent from "components/productCategory";
 
-function ProductCategory() {
+function Blog() {
   return (
     <>
       <BreadCrumb />
-      <ProductCategoryComponent />
+      <BlogComponent />
       <NewsLetter />
     </>
   );
 }
 
-export default ProductCategory;
+export default Blog;

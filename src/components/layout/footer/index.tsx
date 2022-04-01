@@ -106,7 +106,7 @@ function Footer() {
                       <Link to={routesName.ContactUs.path}>تماس با ما </Link>
                     </li>
                     <li>
-                      <a href="blog_category.html">دسته وبلاگ </a>
+                      <Link to={routesName.blog.path}>دسته وبلاگ </Link>
                     </li>
                   </ul>
                 </div>

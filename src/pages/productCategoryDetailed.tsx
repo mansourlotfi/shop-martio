@@ -1,6 +1,6 @@
 import BreadCrumb from "components/breadCrumb";
 import NewsLetter from "components/homeComponent/newsLetter";
-import ProductCategoryDetailedComponent from "components/productCategoryDetailedCom";
+import ProductCategoryDetailedComponent from "components/productCategoryDetailed";
 
 function ProductCategoryDetailed() {
   return (

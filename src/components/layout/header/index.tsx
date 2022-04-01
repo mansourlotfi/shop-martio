@@ -1338,7 +1338,7 @@ function HeaderMenu() {
                   <div className="drop-menu normal-menu">
                     <ul className="sub-menu">
                       <li>
-                        <a href="blog_category.html">دسته بندی وبلاگ </a>
+                        <Link to={routesName.blog.path}>دسته بندی وبلاگ </Link>
                       </li>
                       <li>
                         <a href="blog_single.html">تک نوشته </a>
