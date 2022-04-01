@@ -5,12 +5,13 @@ interface IProps {
   handleClose: () => void;
 }
 
-export default function Login({ open, handleClose }: IProps) {
+export default function Register({ open, handleClose }: IProps) {
   return (
     <Dialog onClose={handleClose} open={open} maxWidth="xs">
       <div className="modal-body">
         <div className="modal-inner">
           <div className="row">
+            <div className="col-md-5"></div>
             <div className="col-md-12">
               <div className="modal-inner-box">
                 <div className="autho-model-header text-center">
@@ -26,12 +27,18 @@ export default function Login({ open, handleClose }: IProps) {
                     با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
                     و مجله در ستون و سطرآنچنان که لازم است.
                   </p>
-                  <h2 className="autho-model-ttl">ورود </h2>
+                  <h2 className="autho-model-ttl">ثبت نام </h2>
                 </div>
 
                 <div className="autho-model-filed">
                   <form>
                     <div className="row">
+                      <div className="col-md-12">
+                        <div className="e-form-field mb-20">
+                          <label>نام </label>
+                          <input className="e-field-inner" type="text" />
+                        </div>
+                      </div>
                       <div className="col-md-12">
                         <div className="e-form-field mb-20">
                           <label>ایمیل </label>
@@ -45,35 +52,9 @@ export default function Login({ open, handleClose }: IProps) {
                         </div>
                       </div>
                       <div className="col-md-12">
-                        <div className="e-form-field mb-20">
-                          <ul className="e-rememberforgot-list">
-                            <li>
-                              <div className="e-checkbox-wrap">
-                                <input
-                                  className="e-checkbox-input"
-                                  type="checkbox"
-                                  id="remember_me"
-                                />
-                                <label className="e-checkbox">
-                                  مرا به خاطر بسپار
-                                </label>
-                              </div>
-                            </li>
-                            <li>
-                              <a
-                                href="forgot_password.html"
-                                className="e-comn-link"
-                              >
-                                فراموشی رمز عبور؟
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="col-md-12">
                         <div className="">
                           <a href="index.html" className="e-btn">
-                            ورود
+                            ثبت نام
                           </a>
                         </div>
                       </div>
@@ -87,8 +68,8 @@ export default function Login({ open, handleClose }: IProps) {
         <button
           type="button"
           className="autho-close"
+          data-dismiss="modal"
           onClick={handleClose}
-          style={{ cursor: "pointer" }}
         >
           &times;
         </button>

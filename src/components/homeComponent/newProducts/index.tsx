@@ -1147,9 +1147,12 @@ function NewProducts() {
           </div>
           <div className="col-12 text-center">
             <div className="load-more-wrap e-line">
-              <a className="e-btn light" href="product_category.html">
+              <Link
+                className="e-btn light"
+                to={routesName.productCategory.path}
+              >
                 نمایش بیشتر
-              </a>
+              </Link>
             </div>
           </div>
         </div>

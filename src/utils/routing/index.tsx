@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { routes, IRoute } from "common/configs/routesConfig";
 import Layout from "components/layout";
 import RequireAuth from "./RequireAuth";
+import ShoppingCard from "components/layout/shoppingCard";
 
 export default memo((): any => {
   const generateRoute = useCallback((route: IRoute, key: number) => {
@@ -43,6 +44,7 @@ export default memo((): any => {
               } else return generateRoute(route, index);
             })}
         </Routes>
+        <ShoppingCard />
       </BrowserRouter>
     </Suspense>
   );

@@ -70,7 +70,9 @@ function Footer() {
                   <h2 className="efoot-heading">دسترسی سریع </h2>
                   <ul className="efoot-list">
                     <li>
-                      <a href="product_category.html">محصولات ما </a>
+                      <Link to={routesName.productCategory.path}>
+                        محصولات ما
+                      </Link>
                     </li>
                     <li>
                       <Link to={routesName.ContactUs.path}>

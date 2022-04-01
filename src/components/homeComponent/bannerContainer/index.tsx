@@ -1,24 +1,19 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./styles.css";
-
-// import required modules
 import { Pagination, Navigation, Autoplay } from "swiper";
 import { Grid } from "@mui/material";
+import { routesName } from "common/configs/routesConfig";
+import { Link } from "react-router-dom";
 
 function BannerContainer() {
   return (
     <section className="e-banner-wrapper e-banner-cloth">
       <Swiper
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={0}
         loop={true}
         pagination={{
           clickable: true,
@@ -56,9 +51,9 @@ function BannerContainer() {
                     را کشف کنید .
                   </p>
                   <div className="banner-btn-wrap e-animation-left">
-                    <a
+                    <Link
+                      to={routesName.productCategory.path}
                       className="e-btn white banner-btn"
-                      href="product_category.html"
                     >
                       اکنون بخرید
                       <span>
@@ -74,7 +69,7 @@ function BannerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </Grid>
@@ -113,9 +108,9 @@ function BannerContainer() {
                     را کشف کنید .
                   </p>
                   <div className="banner-btn-wrap e-animation-left">
-                    <a
+                    <Link
+                      to={routesName.productCategory.path}
                       className="e-btn white banner-btn"
-                      href="product_category.html"
                     >
                       اکنون بخرید
                       <span>
@@ -131,7 +126,7 @@ function BannerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </Grid>
@@ -171,9 +166,9 @@ function BannerContainer() {
                     را کشف کنید .
                   </p>
                   <div className="banner-btn-wrap e-animation-left">
-                    <a
+                    <Link
+                      to={routesName.productCategory.path}
                       className="e-btn white banner-btn"
-                      href="product_category.html"
                     >
                       اکنون بخرید
                       <span>
@@ -189,7 +184,7 @@ function BannerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </Grid>

@@ -1,6 +1,3 @@
-import Login from "components/layout/login";
-import ShoppingCard from "components/layout/shoppingCard";
-import { useEffect } from "react";
 import Routing from "utils/routing";
 import "./App.css";
 // import "../public/assets/js/swiper-bundle.min.js";
@@ -29,8 +26,6 @@ function App() {
   return (
     <>
       <Routing />
-      <ShoppingCard />
-      <Login />
     </>
   );
 }
