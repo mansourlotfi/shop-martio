@@ -10,7 +10,7 @@ function Index() {
   useEffect(() => {
     setTimeout(() => {
       setIsloading(false);
-    }, 500);
+    }, 1000);
   }, []);
 
   return (
