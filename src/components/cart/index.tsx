@@ -1,3 +1,6 @@
+import { routesName } from "common/configs/routesConfig";
+import { Link } from "react-router-dom";
+
 function CartComponent() {
   return (
     <section className="e-shopcart-wrap">
@@ -21,8 +24,8 @@ function CartComponent() {
                       <tr>
                         <td>
                           <div className="sc-productwrap">
-                            <a
-                              href="product_details.html"
+                            <Link
+                              to={routesName.productDetail.path}
                               className="sc-product-thumb"
                             >
                               <img
@@ -30,14 +33,14 @@ function CartComponent() {
                                 alt="محصول"
                                 className="img-fluid"
                               />
-                            </a>
+                            </Link>
                             <div className="sc-product-details">
-                              <a
-                                href="product_details.html"
+                              <Link
+                                to={routesName.productDetail.path}
                                 className="sc-product-ttl"
                               >
                                 کت کلاه دار خاکستری مشکی
-                              </a>
+                              </Link>
                               <p className="sc-product-sz">اندازه: متوسط </p>
                             </div>
                           </div>
@@ -74,8 +77,8 @@ function CartComponent() {
                       <tr>
                         <td>
                           <div className="sc-productwrap">
-                            <a
-                              href="product_details.html"
+                            <Link
+                              to={routesName.productDetail.path}
                               className="sc-product-thumb"
                             >
                               <img
@@ -83,14 +86,14 @@ function CartComponent() {
                                 alt="محصول"
                                 className="img-fluid"
                               />
-                            </a>
+                            </Link>
                             <div className="sc-product-details">
-                              <a
-                                href="product_details.html"
+                              <Link
+                                to={routesName.productDetail.path}
                                 className="sc-product-ttl"
                               >
                                 کت بچه دار زرد
-                              </a>
+                              </Link>
                               <p className="sc-product-sz">اندازه: متوسط </p>
                             </div>
                           </div>
@@ -127,8 +130,8 @@ function CartComponent() {
                       <tr>
                         <td>
                           <div className="sc-productwrap">
-                            <a
-                              href="product_details.html"
+                            <Link
+                              to={routesName.productDetail.path}
                               className="sc-product-thumb"
                             >
                               <img
@@ -136,14 +139,14 @@ function CartComponent() {
                                 alt="محصول"
                                 className="img-fluid"
                               />
-                            </a>
+                            </Link>
                             <div className="sc-product-details">
-                              <a
-                                href="product_details.html"
+                              <Link
+                                to={routesName.productDetail.path}
                                 className="sc-product-ttl"
                               >
                                 کت بمب افکن سیاه
-                              </a>
+                              </Link>
                               <p className="sc-product-sz">اندازه: متوسط </p>
                             </div>
                           </div>
@@ -180,8 +183,8 @@ function CartComponent() {
                       <tr>
                         <td>
                           <div className="sc-productwrap">
-                            <a
-                              href="product_details.html"
+                            <Link
+                              to={routesName.productDetail.path}
                               className="sc-product-thumb"
                             >
                               <img
@@ -189,14 +192,14 @@ function CartComponent() {
                                 alt="محصول"
                                 className="img-fluid"
                               />
-                            </a>
+                            </Link>
                             <div className="sc-product-details">
-                              <a
-                                href="product_details.html"
+                              <Link
+                                to={routesName.productDetail.path}
                                 className="sc-product-ttl"
                               >
                                 ژاکت بادکنک آستین کامل
-                              </a>
+                              </Link>
                               <p className="sc-product-sz">اندازه: متوسط </p>
                             </div>
                           </div>
@@ -233,8 +236,8 @@ function CartComponent() {
                       <tr>
                         <td>
                           <div className="sc-productwrap">
-                            <a
-                              href="product_details.html"
+                            <Link
+                              to={routesName.productDetail.path}
                               className="sc-product-thumb"
                             >
                               <img
@@ -242,14 +245,14 @@ function CartComponent() {
                                 alt="محصول"
                                 className="img-fluid"
                               />
-                            </a>
+                            </Link>
                             <div className="sc-product-details">
-                              <a
-                                href="product_details.html"
+                              <Link
+                                to={routesName.productDetail.path}
                                 className="sc-product-ttl"
                               >
                                 کت دو یقه
-                              </a>
+                              </Link>
                               <p className="sc-product-sz">اندازه: متوسط </p>
                             </div>
                           </div>

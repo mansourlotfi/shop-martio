@@ -27,17 +27,23 @@ function ShoppingCard() {
             <ul className="sb-cartbox-list">
               <li>
                 <div className="sc-productwrap">
-                  <a href="product_details.html" className="sc-product-thumb">
+                  <Link
+                    to={routesName.productDetail.path}
+                    className="sc-product-thumb"
+                  >
                     <img
                       src="assets/images/index1/shopcart01.jpg"
                       alt="محصول"
                       className="img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="sc-product-details">
-                    <a href="product_details.html" className="sc-product-ttl">
+                    <Link
+                      to={routesName.productDetail.path}
+                      className="sc-product-ttl"
+                    >
                       کت کلاه دار خاکستری مشکی
-                    </a>
+                    </Link>
                     <p className="sc-product-sz">اندازه: متوسط </p>
                   </div>
                 </div>
@@ -50,17 +56,23 @@ function ShoppingCard() {
               </li>
               <li>
                 <div className="sc-productwrap">
-                  <a href="product_details.html" className="sc-product-thumb">
+                  <Link
+                    to={routesName.productDetail.path}
+                    className="sc-product-thumb"
+                  >
                     <img
                       src="assets/images/index1/shopcart02.jpg"
                       alt="محصول"
                       className="img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="sc-product-details">
-                    <a href="product_details.html" className="sc-product-ttl">
+                    <Link
+                      to={routesName.productDetail.path}
+                      className="sc-product-ttl"
+                    >
                       کت بچه دار زرد
-                    </a>
+                    </Link>
                     <p className="sc-product-sz">اندازه: متوسط </p>
                   </div>
                 </div>
@@ -73,17 +85,23 @@ function ShoppingCard() {
               </li>
               <li>
                 <div className="sc-productwrap">
-                  <a href="product_details.html" className="sc-product-thumb">
+                  <Link
+                    to={routesName.productDetail.path}
+                    className="sc-product-thumb"
+                  >
                     <img
                       src="assets/images/index1/shopcart03.jpg"
                       alt="محصول"
                       className="img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="sc-product-details">
-                    <a href="product_details.html" className="sc-product-ttl">
+                    <Link
+                      to={routesName.productDetail.path}
+                      className="sc-product-ttl"
+                    >
                       کت بچه دار زرد
-                    </a>
+                    </Link>
                     <p className="sc-product-sz">اندازه: متوسط </p>
                   </div>
                 </div>
@@ -96,17 +114,23 @@ function ShoppingCard() {
               </li>
               <li>
                 <div className="sc-productwrap">
-                  <a href="product_details.html" className="sc-product-thumb">
+                  <Link
+                    to={routesName.productDetail.path}
+                    className="sc-product-thumb"
+                  >
                     <img
                       src="assets/images/index1/shopcart04.jpg"
                       alt="محصول"
                       className="img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="sc-product-details">
-                    <a href="product_details.html" className="sc-product-ttl">
+                    <Link
+                      to={routesName.productDetail.path}
+                      className="sc-product-ttl"
+                    >
                       کت بمب افکن سیاه
-                    </a>
+                    </Link>
                     <p className="sc-product-sz">اندازه: متوسط </p>
                   </div>
                 </div>
@@ -119,17 +143,23 @@ function ShoppingCard() {
               </li>
               <li>
                 <div className="sc-productwrap">
-                  <a href="product_details.html" className="sc-product-thumb">
+                  <Link
+                    to={routesName.productDetail.path}
+                    className="sc-product-thumb"
+                  >
                     <img
                       src="assets/images/index1/shopcart05.jpg"
                       alt="محصول"
                       className="img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="sc-product-details">
-                    <a href="product_details.html" className="sc-product-ttl">
+                    <Link
+                      to={routesName.productDetail.path}
+                      className="sc-product-ttl"
+                    >
                       ژاکت بادکنک آستین کامل
-                    </a>
+                    </Link>
                     <p className="sc-product-sz">اندازه: متوسط </p>
                   </div>
                 </div>

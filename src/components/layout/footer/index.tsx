@@ -1,7 +1,13 @@
 import { routesName } from "common/configs/routesConfig";
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [pathname]);
   return (
     <>
       <footer className="e-footer-wrap e-footer-cloth">
@@ -96,13 +102,13 @@ function Footer() {
                   <h2 className="efoot-heading">لینک های کمکی </h2>
                   <ul className="efoot-list">
                     <li>
-                      <a href="index.html">صفحه اصلی </a>
+                      <Link to={routesName.default.path}>صفحه اصلی </Link>
                     </li>
                     <li>
-                      <a href="privacy_policy.html">حریم خصوصی </a>
+                      <Link to={routesName.privacy.path}>حریم خصوصی </Link>
                     </li>
                     <li>
-                      <a href="terms.html">شرایط و ضوابط </a>
+                      <Link to={routesName.terms.path}>شرایط و ضوابط </Link>
                     </li>
                     <li>
                       <Link to={routesName.ContactUs.path}>تماس با ما </Link>

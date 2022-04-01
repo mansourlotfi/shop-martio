@@ -193,7 +193,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -207,23 +207,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             کت کلاه دار خاکستری مشکی
-                          </a>
+                          </Link>
                           <h2 className="na-price">120000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           کت کلاه دار خاکستری مشکی
-                        </a>
+                        </Link>
                         <h2 className="na-price">120000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -311,7 +317,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -325,24 +331,30 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                           <span className="new-tag">جدید </span>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             کت بچه دار زرد
-                          </a>
+                          </Link>
                           <h2 className="na-price">860000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           کت بچه دار زرد
-                        </a>
+                        </Link>
                         <h2 className="na-price">860000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -430,7 +442,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -444,23 +456,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             کت بچه دار زرد
-                          </a>
+                          </Link>
                           <h2 className="na-price">190000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           کت بچه دار زرد
-                        </a>
+                        </Link>
                         <h2 className="na-price">190000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -548,7 +566,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -562,23 +580,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             کت پد دار نیمه دار
-                          </a>
+                          </Link>
                           <h2 className="na-price">29000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           کت پد دار نیمه دار
-                        </a>
+                        </Link>
                         <h2 className="na-price">29000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -666,7 +690,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -680,24 +704,30 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                           <span className="new-tag">جدید </span>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             ژاکت های زمستانی
-                          </a>
+                          </Link>
                           <h2 className="na-price">320000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           ژاکت های زمستانی
-                        </a>
+                        </Link>
                         <h2 className="na-price">320000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -785,7 +815,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -799,23 +829,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             نیم کت آستین دار
-                          </a>
+                          </Link>
                           <h2 className="na-price">65000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           نیم کت آستین دار
-                        </a>
+                        </Link>
                         <h2 className="na-price">65000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -903,7 +939,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -917,23 +953,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             کت بمب افکن سیاه
-                          </a>
+                          </Link>
                           <h2 className="na-price">95000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           کت بمب افکن سیاه
-                        </a>
+                        </Link>
                         <h2 className="na-price">95000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -1021,7 +1063,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1035,23 +1077,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             ژاکت های زمستانی
-                          </a>
+                          </Link>
                           <h2 className="na-price">140000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           ژاکت های زمستانی
-                        </a>
+                        </Link>
                         <h2 className="na-price">140000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -1139,7 +1187,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1153,23 +1201,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             کاپشن بادکنکی مشکی
-                          </a>
+                          </Link>
                           <h2 className="na-price">290000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           کاپشن بادکنکی مشکی
-                        </a>
+                        </Link>
                         <h2 className="na-price">290000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -1257,7 +1311,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1271,24 +1325,30 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                           <span className="new-tag">جدید </span>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             ژاکت بادکنک آستین کامل
-                          </a>
+                          </Link>
                           <h2 className="na-price">140000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           ژاکت بادکنک آستین کامل
-                        </a>
+                        </Link>
                         <h2 className="na-price">140000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -1376,7 +1436,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1390,23 +1450,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             کت دو یقه
-                          </a>
+                          </Link>
                           <h2 className="na-price">440000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           کت دو یقه
-                        </a>
+                        </Link>
                         <h2 className="na-price">440000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
@@ -1494,7 +1560,7 @@ function ProductCategoryComponent() {
                               </Link>
                             </li>
                             <li>
-                              <a href="product_details.html">
+                              <Link to={routesName.productDetail.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1508,23 +1574,29 @@ function ProductCategoryComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="na-top-heading text-center">
-                          <a href="product_details.html" className="na-name">
+                          <Link
+                            to={routesName.productDetail.path}
+                            className="na-name"
+                          >
                             ژاکت زیتون تیره زمستانی
-                          </a>
+                          </Link>
                           <h2 className="na-price">640000 تومان</h2>
                         </div>
                       </div>
                     </div>
                     <div className="procategory-listbox">
                       <div className="pc-top-heading ">
-                        <a href="product_details.html" className="na-name">
+                        <Link
+                          to={routesName.productDetail.path}
+                          className="na-name"
+                        >
                           ژاکت زیتون تیره زمستانی
-                        </a>
+                        </Link>
                         <h2 className="na-price">640000 تومان</h2>
                         <p className="procategory-des">
                           طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
