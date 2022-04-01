@@ -1,7 +1,6 @@
 import BreadCrumb from "components/breadCrumb";
-import NewsLetter from "components/homeComponent/newsLetter";
+import NewsLetter from "components/home/newsLetter";
 import WishlistComponent from "components/wishlist";
-import React from "react";
 
 function Wishlist() {
   return (

@@ -1,5 +1,5 @@
 import BreadCrumb from "components/breadCrumb";
-import NewsLetter from "components/homeComponent/newsLetter";
+import NewsLetter from "components/home/newsLetter";
 import ProductCategoryComponent from "components/productCategory";
 
 function ProductCategory() {

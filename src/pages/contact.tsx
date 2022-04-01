@@ -1,6 +1,6 @@
 import BreadCrumb from "components/breadCrumb";
 import ContactComponent from "components/contact";
-import NewsLetter from "components/homeComponent/newsLetter";
+import NewsLetter from "components/home/newsLetter";
 import React from "react";
 
 function Contact() {

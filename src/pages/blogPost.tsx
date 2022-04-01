@@ -1,7 +1,6 @@
 import BlogPostComponent from "components/blogpost";
 import BreadCrumb from "components/breadCrumb";
-import NewsLetter from "components/homeComponent/newsLetter";
-import React from "react";
+import NewsLetter from "components/home/newsLetter";
 
 function BlogPost() {
   return (

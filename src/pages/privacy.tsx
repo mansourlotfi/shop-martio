@@ -1,7 +1,6 @@
 import { routesName } from "common/configs/routesConfig";
-import NewsLetter from "components/homeComponent/newsLetter";
+import NewsLetter from "components/home/newsLetter";
 import PrivacyComponent from "components/privacy";
-import TermsComponent from "components/terms";
 import { Link } from "react-router-dom";
 
 function Privacy() {

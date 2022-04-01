@@ -1,6 +1,6 @@
 import BreadCrumb from "components/breadCrumb";
-import CartComponent from "components/cartComponent";
-import NewsLetter from "components/homeComponent/newsLetter";
+import CartComponent from "components/cart";
+import NewsLetter from "components/home/newsLetter";
 
 function Cart() {
   return (
