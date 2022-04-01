@@ -12,6 +12,7 @@ const Wishlist = React.lazy(() => import("pages/wishlist"));
 const Blog = React.lazy(() => import("pages/blog"));
 const BlogPost = React.lazy(() => import("pages/blogPost"));
 const Terms = React.lazy(() => import("pages/terms"));
+const Privacy = React.lazy(() => import("pages/privacy"));
 
 interface IRoute {
   title: string;
@@ -81,6 +82,10 @@ export const routesName: IRoutesName = {
     title: "blogPost",
     path: "/blogPost",
   },
+  privacy: {
+    title: "privacy",
+    path: "/privacy",
+  },
   // error403: {
   //   title: "Error 403",
   //   path: "/error-pages/error-403",
@@ -139,6 +144,12 @@ const routes: IRoute[] = [
     isPrivate: false,
     hasMenuField: false,
     element: Terms,
+  },
+  {
+    ...routesName.privacy,
+    isPrivate: false,
+    hasMenuField: false,
+    element: Privacy,
   },
   // {
   //   ...routesName.AboutUs,

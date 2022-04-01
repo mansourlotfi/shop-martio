@@ -179,7 +179,7 @@ function Footer() {
                   <Link to={routesName.terms.path}>قوانین سایت </Link>
                 </li>
                 <li>
-                  <a href="privacy_policy.html">حریم خصوصی </a>
+                  <Link to={routesName.privacy.path}>حریم خصوصی </Link>
                 </li>
               </ul>
             </div>
