@@ -1,4 +1,6 @@
+import { routesName } from "common/configs/routesConfig";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ShoppingCard() {
   const closeCard = () => {
@@ -146,12 +148,8 @@ function ShoppingCard() {
               <span className="sb-cartbox-amount">859000 تومان</span>
             </div>
             <div className="sb-cartbox-btn">
-              <a href="cart.html" className="e-btn">
-                سبد خرید{" "}
-              </a>
-              <a href="shipping_cart.html" className="e-btn">
-                پرداخت{" "}
-              </a>
+              <a className="e-btn">سبد خرید</a>
+              <a className="e-btn">پرداخت</a>
             </div>
           </div>
         </div>

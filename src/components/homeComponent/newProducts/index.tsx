@@ -1,3 +1,6 @@
+import { routesName } from "common/configs/routesConfig";
+import { Link } from "react-router-dom";
+
 function NewProducts() {
   return (
     <section className="e-newarivles-wrap e-newarivles-cloth">
@@ -19,7 +22,7 @@ function NewProducts() {
                 <ul>
                   <li>
                     <a data-filter="*" className="gallery-active">
-                      همه{" "}
+                      همه
                     </a>
                   </li>
                   <li>
@@ -91,7 +94,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -105,7 +108,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -182,7 +185,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -196,7 +199,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -274,7 +277,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -288,7 +291,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -365,7 +368,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -379,7 +382,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -456,7 +459,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -470,7 +473,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -548,7 +551,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -562,7 +565,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -639,7 +642,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -653,7 +656,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -730,7 +733,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -744,7 +747,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -821,7 +824,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -835,7 +838,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -912,7 +915,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -926,7 +929,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -1004,7 +1007,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1018,7 +1021,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -1095,7 +1098,7 @@ function NewProducts() {
                             </a>
                           </li>
                           <li>
-                            <a href="cart.html">
+                            <Link to={routesName.cart.path}>
                               <span>
                                 <svg
                                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1109,7 +1112,7 @@ function NewProducts() {
                                   />
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="product_details.html">
@@ -1145,7 +1148,7 @@ function NewProducts() {
           <div className="col-12 text-center">
             <div className="load-more-wrap e-line">
               <a className="e-btn light" href="product_category.html">
-                نمایش بیشتر{" "}
+                نمایش بیشتر
               </a>
             </div>
           </div>

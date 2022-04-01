@@ -11,6 +11,7 @@ import "./styles.css";
 
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper";
+import { Link } from "react-router-dom";
 
 function BestSellerContainer() {
   return (
@@ -89,7 +90,7 @@ function BestSellerContainer() {
                     </a>
                   </li>
                   <li>
-                    <a href="cart.html">
+                    <Link to="cart">
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -103,7 +104,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product_details.html">
@@ -181,7 +182,7 @@ function BestSellerContainer() {
                     </a>
                   </li>
                   <li>
-                    <a href="cart.html">
+                    <Link to="/cart">
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -195,7 +196,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product_details.html">
@@ -272,7 +273,7 @@ function BestSellerContainer() {
                     </a>
                   </li>
                   <li>
-                    <a href="cart.html">
+                    <Link to="/cart">
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -286,7 +287,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product_details.html">
@@ -363,7 +364,7 @@ function BestSellerContainer() {
                     </a>
                   </li>
                   <li>
-                    <a href="cart.html">
+                    <Link to="/cart">
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -377,7 +378,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product_details.html">
@@ -454,7 +455,7 @@ function BestSellerContainer() {
                     </a>
                   </li>
                   <li>
-                    <a href="cart.html">
+                    <Link to="/cart">
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -468,7 +469,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product_details.html">
@@ -545,7 +546,7 @@ function BestSellerContainer() {
                     </a>
                   </li>
                   <li>
-                    <a href="cart.html">
+                    <Link to="/cart">
                       <span>
                         <svg
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -559,7 +560,7 @@ function BestSellerContainer() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product_details.html">

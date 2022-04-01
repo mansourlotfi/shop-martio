@@ -1,3 +1,4 @@
+import { routesName } from "common/configs/routesConfig";
 import { Link } from "react-router-dom";
 
 function HeaderMenu() {
@@ -1321,7 +1322,7 @@ function HeaderMenu() {
                         <Link to="/product-category-detailed">فروشگاه </Link>
                       </li>
                       <li>
-                        <a href="cart.html">سبد خرید </a>{" "}
+                        <Link to={routesName.cart.path}>سبد خرید </Link>{" "}
                       </li>
                       <li>
                         <Link to="/product-category">محصولات </Link>{" "}

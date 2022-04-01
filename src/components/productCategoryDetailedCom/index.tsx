@@ -1,3 +1,6 @@
+import { routesName } from "common/configs/routesConfig";
+import { Link } from "react-router-dom";
+
 function ProductCategoryDetailedComponent() {
   const categoryGridHandler = () => {
     document
@@ -123,7 +126,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -137,7 +140,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -242,7 +245,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -256,7 +259,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -362,7 +365,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -376,7 +379,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -481,7 +484,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -495,7 +498,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -600,7 +603,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -614,7 +617,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -719,7 +722,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -733,7 +736,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -838,7 +841,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -852,7 +855,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -958,7 +961,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -972,7 +975,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
@@ -1077,7 +1080,7 @@ function ProductCategoryDetailedComponent() {
                               </a>
                             </li>
                             <li>
-                              <a href="cart.html">
+                              <Link to={routesName.cart.path}>
                                 <span>
                                   <svg
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1091,7 +1094,7 @@ function ProductCategoryDetailedComponent() {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="product_details.html">
