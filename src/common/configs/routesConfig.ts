@@ -2,6 +2,9 @@ import React from "react";
 
 const Home = React.lazy(() => import("pages/home"));
 const ProductCategory = React.lazy(() => import("pages/productCategory"));
+const ProductCategoryDetailed = React.lazy(
+  () => import("pages/productCategoryDetailed")
+);
 
 interface IRoute {
   title: string;
@@ -27,8 +30,13 @@ export const routesName: IRoutesName = {
     path: "/",
   },
   productCategory: {
-    title: "default",
+    title: "product-category",
     path: "/product-category",
+  },
+
+  productCategoryDetailed: {
+    title: "product-category-detailed",
+    path: "/product-category-detailed",
   },
   // Privacy: {
   //   title: "Privacy",
@@ -82,6 +90,14 @@ const routes: IRoute[] = [
     hasMenuField: false,
     element: ProductCategory,
   },
+
+  {
+    ...routesName.productCategoryDetailed,
+    isPrivate: false,
+    hasMenuField: false,
+    element: ProductCategoryDetailed,
+  },
+
   // {
   //   ...routesName.AboutUs,
   //   isPrivate: false,

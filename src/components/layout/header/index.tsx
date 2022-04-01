@@ -1318,7 +1318,7 @@ function HeaderMenu() {
                   <div className="drop-menu normal-menu">
                     <ul className="sub-menu">
                       <li>
-                        <a href="product_category_sidebar.html">فروشگاه </a>{" "}
+                        <Link to="/product-category-detailed">فروشگاه </Link>
                       </li>
                       <li>
                         <a href="cart.html">سبد خرید </a>{" "}

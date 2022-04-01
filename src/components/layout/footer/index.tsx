@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -78,7 +79,7 @@ function Footer() {
                       <a href="blog_single.html">آخرین اخبار </a>
                     </li>
                     <li>
-                      <a href="product_category_sidebar.html">فروشگاه </a>
+                      <Link to="/product-category-detailed">فروشگاه </Link>
                     </li>
                     <li>
                       <a href="contact.html">تماس با ما </a>
@@ -113,21 +114,21 @@ function Footer() {
                   <h2 className="efoot-heading">داستان ما </h2>
                   <ul className="efoot-list">
                     <li>
-                      <a href="product_category_sidebar.html">زنانه </a>
+                      <Link to="/product-category-detailed">زنانه </Link>
                     </li>
                     <li>
-                      <a href="product_category_sidebar.html">مردانه </a>
+                      <Link to="/product-category-detailed">مردانه </Link>
                     </li>
                     <li>
-                      <a href="product_category_sidebar.html">
+                      <Link to="/product-category-detailed">
                         نوزاد و کودکانه
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="product_category_sidebar.html">شلوار جین </a>
+                      <Link to="/product-category-detailed">شلوار جین </Link>
                     </li>
                     <li>
-                      <a href="product_category_sidebar.html">تی شرت </a>
+                      <Link to="/product-category-detailed">تی شرت </Link>
                     </li>
                   </ul>
                 </div>

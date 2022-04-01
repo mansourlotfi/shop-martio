@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function TopAdsContainer() {
   return (
@@ -7,35 +7,35 @@ function TopAdsContainer() {
         <div className="row">
           <div className="col-sm-3 col-12">
             <div className="e-topads-inner e-cads-inner">
-              <a href="product_category_sidebar.html">
+              <Link to="/product-category-detailed">
                 <img
                   src="assets/images/index1/index_ads1.jpg"
                   alt="image"
                   className="img-fluid"
                 />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-sm-6 col-12">
             <div className="e-topads-inner e-cads-inner">
-              <a href="product_category_sidebar.html">
+              <Link to="/product-category-detailed">
                 <img
                   src="assets/images/index1/index_ads2.jpg"
                   alt="image"
                   className="img-fluid"
                 />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-sm-3 col-12">
             <div className="e-topads-inner e-cads-inner">
-              <a href="product_category_sidebar.html">
+              <Link to="/product-category-detailed">
                 <img
                   src="assets/images/index1/index_ads3.jpg"
                   alt="image"
                   className="img-fluid"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
