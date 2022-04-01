@@ -1,27 +1,22 @@
 function ProductCategoryComponent() {
   const categoryGridHandler = () => {
     document
-      .querySelector(".e-filter-list > li > a")!
-      .addEventListener("click", function () {
-        document
-          .querySelector(".e-filter-list > li > a")!
-          .classList.remove("active");
-        document.querySelector(".Category-grid-btn")!.classList.add("active");
-      });
+      .querySelector(".e-filter-list > .Category-list-btn > a")!
+      .classList.remove("active");
+    document.querySelector(".Category-grid-btn > a")!.classList.add("active");
+
     document
-      .querySelector(".Category-list-btn")!
-      .addEventListener("click", function () {
-        document
-          .querySelector(".e-procategory-inner")!
-          .classList.add("list-view");
-      });
+      .querySelector(".e-procategory-inner")!
+      .classList.remove("list-view");
+  };
+
+  const categoryListHandler = () => {
     document
-      .querySelector(".Category-grid-btn")!
-      .addEventListener("click", function () {
-        document
-          .querySelector(".e-procategory-inner")!
-          .classList.remove("list-view");
-      });
+      .querySelector(".e-filter-list > .Category-grid-btn > a")!
+      .classList.remove("active");
+    document.querySelector(".Category-list-btn > a")!.classList.add("active");
+
+    document.querySelector(".e-procategory-inner")!.classList.add("list-view");
   };
   return (
     <section className="e-procategory-wrap">
@@ -107,7 +102,7 @@ function ProductCategoryComponent() {
                   </li>
                   <li
                     className="Category-list-btn"
-                    onClick={categoryGridHandler}
+                    onClick={categoryListHandler}
                   >
                     <a>
                       <svg
